@@ -20,12 +20,6 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>comparisons/control_systems/index.html</loc>
-    <lastmod>2024-02-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
     <loc>comparisons/math/linear_solvers/index.html</loc>
     <lastmod>2024-02-24</lastmod>
     <changefreq>monthly</changefreq>
@@ -44,25 +38,19 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>comparisons/agentbasedmodelling/index.html</loc>
-    <lastmod>2024-02-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
     <loc>comparisons/utility/piping/index.html</loc>
     <lastmod>2024-02-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>comparisons/multipletypesintoone/index.html</loc>
+    <loc>comparisons/uncertainty_propagation/index.html</loc>
     <lastmod>2024-02-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>comparisons/uncertainty_propagation/index.html</loc>
+    <loc>comparisons/simulation/agentbasedmodelling/index.html</loc>
     <lastmod>2024-02-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -98,13 +86,19 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>comparisons/machine_learning/neural_networks/index.html</loc>
+    <loc>comparisons/acceleration/loop_acceleration/index.html</loc>
     <lastmod>2024-02-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>comparisons/web/web_apps/index.html</loc>
+    <loc>comparisons/acceleration/multithreading/index.html</loc>
+    <lastmod>2024-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>comparisons/machine_learning/neural_networks/index.html</loc>
     <lastmod>2024-02-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -116,7 +110,7 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>comparisons/loop_acceleration/index.html</loc>
+    <loc>comparisons/web/web_apps/index.html</loc>
     <lastmod>2024-02-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -141,6 +135,12 @@
 </url>
 <url>
     <loc>comparisons/metrics/index.html</loc>
+    <lastmod>2024-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>comparisons/simulation/control_systems/index.html</loc>
     <lastmod>2024-02-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -194,7 +194,7 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>comparisons/multithreading/index.html</loc>
+    <loc>comparisons/utility/multipletypesintoone/index.html</loc>
     <lastmod>2024-02-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
