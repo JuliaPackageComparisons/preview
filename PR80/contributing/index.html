@@ -6,13 +6,13 @@ julia --project=. -e <span class=hljs-string >&#x27;using Pkg; Pkg.instantiate()
 <h3 id=update_existing_content ><a href="#update_existing_content" class=header-anchor >Update existing content</a></h3>
 <p>TODO: write guide</p>
 <h3 id=create_a_new_section ><a href="#create_a_new_section" class=header-anchor >Create a new section</a></h3>
-<p>To make a section <code>&lt;new_section&gt;</code>, a two things need to be done.</p>
-<ul>
+<p>To make a section <code>&lt;new_section&gt;</code>, two things need to be done:</p>
+<ol>
 <li><p>Add <code>docs/comparisons/&lt;meta_section&gt;/&lt;new_section&gt;.md</code> file.</p>
 
 <li><p>Update package list <code>PKGINFOS</code> in <code>docs/utils.jl</code>.</p>
 
-</ul>
+</ol>
 <p><a href="https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io/pull/79">PR#79</a> &#40;adding JSON section&#41; will be a good reference to add a new section.</p>
 <p><strong>Add markdown file</strong></p>
 <p>A markdown file containing the section will have to be created inside the &quot;pages&quot; folder. The filename should use underscores for spaces, have only lowercase letters, and match the title of the section as well as possible. Start the file content with:</p>
