@@ -36,27 +36,23 @@ title = &quot;New section&quot;
 
 </ul>
 
-<li><p><code>branch</code> &#40;optional&#41;</p>
+<li><p><code>branch</code> &#40;optional, default: <code>&quot;main&quot;</code>&#41;</p>
 <ul>
 <li><p>Default branch name</p>
 
-<li><p>Default: <code>&quot;main&quot;</code></p>
-
 </ul>
 
-<li><p><code>repolink</code> &#40;optional&#41;</p>
+<li><p><code>repolink</code> &#40;optional, default: <code>&quot;https://github.com/&#36;username/&#36;pkgname.jl&quot;</code>&#41;</p>
 <ul>
 <li><p>URL to the repository.</p>
 
-<li><p>Default: <code>&quot;https://github.com/&#36;username/&#36;pkgname.jl&quot;</code></p>
+<li><p>Set URL explicitly if the package is maintained in monorepo. &#40;e.g. <a href="https://github.com/JuliaPlots/Plots.jl/tree/master/RecipesBase">RecipesBase.jl</a>&#41;</p>
 
 </ul>
 
-<li><p><code>docslink</code> &#40;optional&#41;</p>
+<li><p><code>docslink</code> &#40;optional, default: <code>&quot;https://&#36;username.github.io/&#36;pkgname.jl&quot;</code>&#41;</p>
 <ul>
 <li><p>URL to the documentation.</p>
-
-<li><p>Default: <code>&quot;https://&#36;username.github.io/&#36;pkgname.jl&quot;</code></p>
 
 <li><p>Set <code>nothing</code> if the package does not have documentation.</p>
 
@@ -64,21 +60,17 @@ title = &quot;New section&quot;
 
 </ul>
 
-<li><p><code>codecovlink</code> &#40;optional&#41;</p>
+<li><p><code>codecovlink</code> &#40;optional, default: <code>&quot;https://codecov.io/gh/&#36;username/&#36;pkgname.jl&quot;</code>&#41;</p>
 <ul>
 <li><p>URL to codecov page.</p>
-
-<li><p>Default: <code>&quot;https://codecov.io/gh/&#36;username/&#36;pkgname.jl&quot;</code></p>
 
 <li><p>Set <code>nothing</code> if the repository does not use CodeCov.</p>
 
 </ul>
 
-<li><p><code>registered</code> &#40;optional&#41;</p>
+<li><p><code>registered</code> &#40;optional, default: <code>true</code>&#41;</p>
 <ul>
 <li><p>Flag for whether the package is registered.</p>
-
-<li><p>Default: <code>true</code></p>
 
 </ul>
 
